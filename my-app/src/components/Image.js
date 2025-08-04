@@ -4,7 +4,7 @@ const Image = () => {
     return (
       <div>
       <img className="rounded-img" alt=""
-              src={require("./Sanjana_picture.jpg")} />
+              src={require("./img_1.jpg")} />
   
       </div>
     );

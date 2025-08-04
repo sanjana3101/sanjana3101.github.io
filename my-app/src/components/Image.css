@@ -1,5 +1,16 @@
 .rounded-img {
-    border-radius: 50%; /* Set the border-radius to 50% to make the image rounded */
-    width: 200px; /* Set the width and height to your desired dimensions */
-    height: 200px;
+  width: 300px;              /* Adjust to your preferred size */
+  height: auto;              /* Preserve aspect ratio */
+  border-radius: 0;        /* Optional: soft corners; set to 0 for sharp edges */
+  object-fit: contain;       /* Ensure image fits without distortion */
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .rounded-img {
+    width: 90%;
   }
+}
+
