@@ -1,0 +1,5 @@
+.rounded-img {
+    border-radius: 50%; /* Set the border-radius to 50% to make the image rounded */
+    width: 200px; /* Set the width and height to your desired dimensions */
+    height: 200px;
+  }

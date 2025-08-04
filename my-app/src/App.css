@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Set the container height to fill the entire viewport */
+}
+
+.segment {
+  display: flex;
+  background-color: #faf0e6;
+  /* flex: 1; Equal flex distribution to make all segments equal in size */
+  padding: 20px;
+  border: 1px solid #faf0e6;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria; 
+  font-weight: 3px;
+  font-size: 25px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
