@@ -1,7 +1,8 @@
 import React from 'react';
+import Home from './Home';
 
 const About = () => {
-  return <div>This is the About page</div>;
+  return <Home />;
 };
 
 export default About;
