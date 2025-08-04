@@ -11,7 +11,7 @@ const Home = () => {
       </div>
       <div className="segment">
       Previously, I completed my Bachelor's degree in Computer Engineering at the same university, graduating as a James Scholar and a member of the Eta Kappa Nu (HKN) Honor Society.
-      My research interests include Machine Learning, Software Engineering, Large Language Models, Heterogeneous Computing, and Data Engineering.
+      My research interests span across Machine Learning & Large Language Models, Software Engineering, Heterogeneous and Embedded Computing, as well as Data Engineering.
   </div>
     </div>
   );
