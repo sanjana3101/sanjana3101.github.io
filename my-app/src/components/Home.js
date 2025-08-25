@@ -13,7 +13,7 @@ const Home = () => {
     },
     {
       title: "Heterogeneous & Embedded",
-      desc: " GPU, NPU Programming, High-Level Synthesis",
+      desc: "C++ Programming, Low-Latency Systems, GPU, NPU Programming",
     },
     {
       title: "Data Engineering",
