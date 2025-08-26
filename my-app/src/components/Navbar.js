@@ -1,25 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css'; 
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/publications">Publications</Link>
-        </li>
-        <li>
-          <Link to="/resume">Resume</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-        {/* Add more menu items as needed */}
-      </ul>
+    <nav className="navbar">
+      <div className="navbar-logo">SP</div>
+
+      <div className={`navbar-links ${open ? "active" : ""}`}>
+        <Link to="/about" onClick={() => setOpen(false)}>About</Link>
+        <Link to="/publications" onClick={() => setOpen(false)}>Publications</Link>
+        <Link to="/resume" onClick={() => setOpen(false)}>Resume</Link>
+        <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
+      </div>
+
+      <div className="hamburger" onClick={() => setOpen(!open)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
   );
 };
