@@ -1,7 +1,9 @@
 import React from 'react';
+import './Resume.css';
 
 const Resume = () => {
   return (
+    <div className='resume-container'>
     <div
       style={{
         display: 'flex',
@@ -34,6 +36,7 @@ const Resume = () => {
           }}
         />
       </div>
+    </div>
     </div>
   );
 };
