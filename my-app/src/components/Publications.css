@@ -1,0 +1,48 @@
+.publications-container {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.papers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.paper-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.paper-image {
+  width: 150px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.paper-info {
+  flex: 1;
+}
+
+.paper-info strong {
+  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.paper-info a {
+  color: #0077cc;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.paper-info a:hover {
+  text-decoration: underline;
+}

@@ -32,6 +32,7 @@ body {
   font-size: 2.25rem;
   font-weight: bold;
   margin-bottom: 1rem;
+  color:  #333;
 }
 
 .about-text .description {
@@ -59,6 +60,7 @@ body {
 .skills-section {
   text-align: center;
   margin-bottom: 3rem;
+  color:  #333;
 }
 
 .skills-section h2 {

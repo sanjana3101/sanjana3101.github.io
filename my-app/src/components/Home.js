@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "./Image";
+import "./Home.css"; // <-- Make sure to import your CSS
 
 const Home = () => {
   const skills = [
@@ -21,20 +22,13 @@ const Home = () => {
     },
   ];
 
-  const papers = [
-    {
-      title:
-        "OpenRTLSet: A Fully Open-Source Dataset for Large Language Model-based Verilog Module Design",
-      details: "pp. 212–218, Jun. 2025",
-      doi: "https://doi.org/10.1109/iclad65226.2025.00038",
-    },
-  ];
-
   return (
     <div className="home-container">
+      {/* Dark overlay on background */}
+      <div className="background-overlay"></div>
+
       {/* About Section */}
       <div className="about-section">
-        {/* About Text */}
         <div className="about-text">
           <h1 className="name">Hi, I'm Sanjana Pingali!</h1>
           <p className="description">
@@ -62,21 +56,6 @@ const Home = () => {
             </div>
           ))}
         </div>
-      </section>
-
-      {/* Papers Published */}
-      <section className="papers-section">
-        <h2>Papers Published</h2>
-        <ul className="papers-list">
-          {papers.map((paper, idx) => (
-            <li key={idx}>
-              <strong>{paper.title}</strong>, {paper.details}.{" "}
-              <a href={paper.doi} target="_blank" rel="noopener noreferrer">
-                DOI
-              </a>
-            </li>
-          ))}
-        </ul>
       </section>
     </div>
   );
