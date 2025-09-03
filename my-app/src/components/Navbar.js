@@ -12,6 +12,7 @@ const Navbar = () => {
       <div className={`navbar-links ${open ? "active" : ""}`}>
       <Link to="/about" onClick={() => setOpen(false)}>About</Link>
       <Link to="/publications" onClick={() => setOpen(false)}>Publications</Link>
+      <Link to="/projects" onClick={() => setOpen(false)}>Projects</Link>
       <Link to="/resume" onClick={() => setOpen(false)}>Resume</Link>
       {/* <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link> */}
     </div>
