@@ -15,7 +15,8 @@ const Projects = () => {
         title:
         "Elderly Homes Health Tracking System ",
         role: "Senior Design project (Won Best Presentation)",
-        details: "Built full-stack health-tracking system using embedded C++, python and real-time data transmission.",
+        details: "Built full-stack health-tracking system using embedded C, python and real-time data transmissions",
+        skills: "Firmware, Python, C, MongoDB",
         image: Senior_design, // put your image in public/images/
       },
     {
@@ -23,6 +24,7 @@ const Projects = () => {
       "Society of Women Engineers",
       role: "Team Technical: Machine Learning Project Lead ",
       details: "Led the Machine Learning Team to create a Regression Model to estimate Job Wall Time for Caterpillar.",
+      skills: "Machine Learning, Python",
       image: sweImage, // put your image in public/images/
     },
     {
@@ -30,6 +32,7 @@ const Projects = () => {
         "Pixel Playground: CartoonifyMe",
         role: "Computer Vision Class Project",
         details: "Using Cartoon-GANs to cartoonlike images of celebrities using the celebA dataset.",
+        skills: "Python, Machine Learning",
         image: cvImage, // put your image in public/images/
       },
       {
@@ -37,6 +40,7 @@ const Projects = () => {
         "BuyMeCoffee",
         role: "Website Development Class Project",
         details: "Developed a multi-tiered web app for startup investors to meet those who want to start a company.",
+        skills: "Python, MongoDB",
         image: BuyMeCoffeeBlue, // put your image in public/images/
       },
       {
@@ -44,6 +48,7 @@ const Projects = () => {
         "Sentiment Analyzer",
         role: "Computational Linguistics Final Project",
         details: "Implemented a sentiment classifier to categorize texts comparing against 4 different models using the Cornell movie dataset. ",
+        skills: "Natural Language Processing, Python",
         image: sentimentImage, // put your image in public/images/
       },
     {
@@ -51,6 +56,7 @@ const Projects = () => {
         "High-Frequency Trading Group Project",
         role: "Group Project for HFT Class",
         details: "Built a web application that mined 64,000+ job opportunities in high-frequency trading",
+        skills: "Python,SQL, React, Data Mining",
         image: hftImage, // put your image in public/images/
       },
       {
@@ -58,6 +64,7 @@ const Projects = () => {
         "Verification of CNNs in HLS Using SMT Solvers",
         role: "Advanced Topics in Machine Learning Project",
         details: "Using SMT solvers to ensure that the conversion of Convolution Neural Networks (CNNs) models to accelerators maintains accuracy when using High Level Synthesis. ",
+        skills: "Python, Machine Learning, Formal Verification",
         image: cnnImage, // put your image in public/images/
       },
   ];
@@ -77,6 +84,7 @@ const Projects = () => {
               <h2>{paper.title}</h2>
               <strong>{paper.role}</strong>
               <p>{paper.details}</p>
+              <b>Skills: {paper.skills}</b>
             </div>
           </div>
         ))}
