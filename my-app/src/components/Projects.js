@@ -12,8 +12,8 @@ const Projects = () => {
   const papers = [
     {
         title:
-        "Senior Design project",
-        role: "Elderly Homes Health Tracking System (Won Best Presentation)",
+        "Elderly Homes Health Tracking System ",
+        role: "Senior Design project (Won Best Presentation)",
         details: "Built full-stack health-tracking system using embedded C++, python and real-time data transmission.",
         image: Senior_design, // put your image in public/images/
       },
