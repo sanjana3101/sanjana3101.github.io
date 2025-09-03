@@ -6,6 +6,7 @@ import cvImage from "./cv.jpg";
 import sentimentImage from "./sentiment_analysis.png";
 import cnnImage from "./cnn.png";
 import Senior_design from "./Senior_design.JPG";
+import BuyMeCoffeeBlue from "./BuyMeCoffeeBlue.png";
 
 
 const Projects = () => {
@@ -30,6 +31,13 @@ const Projects = () => {
         role: "Computer Vision Class Project",
         details: "Using Cartoon-GANs to cartoonlike images of celebrities using the celebA dataset.",
         image: cvImage, // put your image in public/images/
+      },
+      {
+        title:
+        "BuyMeCoffee",
+        role: "Website Development Class Project",
+        details: "Developed a multi-tiered web app for startup investors to meet those who want to start a company.",
+        image: BuyMeCoffeeBlue, // put your image in public/images/
       },
       {
         title:
