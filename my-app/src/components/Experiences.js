@@ -1,10 +1,10 @@
 import React from "react";
-import "./Publications.css";
+import "./Experiences.css";
 import civis from "./civis_2.png";
 import UofI from "./UofI.png"
 import NCSA from "./NCSA.png"
 
-const Publications = () => {
+const Experiences = () => {
   const Internship = [
     {
       title:
@@ -63,51 +63,51 @@ const Publications = () => {
   ];
 
   return (
-    <div className="publications-container">
+    <div className="experiences-container">
       <h2> <strong>Internships </strong></h2>
-      <div className="papers-list">
-        {Internship.map((paper, idx) => (
-          <div key={idx} className="paper-card">
+      <div className="experiencess-list">
+        {Internship.map((experiences, idx) => (
+          <div key={idx} className="experiences-card">
             <img
-              src={paper.image}
-              alt={paper.title}
-              className="paper-image"
+              src={experiences.image}
+              alt={experiences.title}
+              className="experiences-image"
             />
-            <div className="paper-info">
-              <strong>{paper.company}</strong>
-              <p>{paper.title}</p>
+            <div className="experiences-info">
+              <strong>{experiences.company}</strong>
+              <p>{experiences.title}</p>
             </div>
           </div>
         ))}
       </div>
       <h2> <strong> Research </strong></h2>
-      <div className="papers-list">
-        {research.map((paper, idx) => (
-          <div key={idx} className="paper-card">
+      <div className="experiencess-list">
+        {research.map((experiences, idx) => (
+          <div key={idx} className="experiences-card">
             <img
-              src={paper.image}
-              alt={paper.title}
-              className="paper-image"
+              src={experiences.image}
+              alt={experiences.title}
+              className="experiences-image"
             />
-            <div className="paper-info">
-              <strong>{paper.company}</strong>
-              <p>{paper.title}</p>
+            <div className="experiences-info">
+              <strong>{experiences.company}</strong>
+              <p>{experiences.title}</p>
             </div>
           </div>
         ))}
       </div>
       <h2> <strong>Teaching Positions </strong></h2>
-      <div className="papers-list">
-        {teaching.map((paper, idx) => (
-          <div key={idx} className="paper-card">
+      <div className="experiencess-list">
+        {teaching.map((experiences, idx) => (
+          <div key={idx} className="experiences-card">
             <img
-              src={paper.image}
-              alt={paper.title}
-              className="paper-image"
+              src={experiences.image}
+              alt={experiences.title}
+              className="experiences-image"
             />
-            <div className="paper-info">
-              <strong>{paper.course}</strong>
-              <p>{paper.title}</p>
+            <div className="experiences-info">
+              <strong>{experiences.course}</strong>
+              <p>{experiences.title}</p>
             </div>
           </div>
         ))}
@@ -116,4 +116,4 @@ const Publications = () => {
   );
 };
 
-export default Publications;
+export default Experiences;

@@ -4,21 +4,11 @@ import './Resume.css';
 const Resume = () => {
   return (
     <div className='resume-container'>
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        minHeight: '100vh',
-        backgroundColor: '#f9f9f9',
-        padding: '2rem',
-      }}
-    >
       <div
         style={{
           width: '70%',
           maxWidth: '900px',
-          height: '800px',
+          height: '900px',  // fills container height
           boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
           borderRadius: '12px',
           overflow: 'hidden',
@@ -36,7 +26,6 @@ const Resume = () => {
           }}
         />
       </div>
-    </div>
     </div>
   );
 };
