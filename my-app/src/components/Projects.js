@@ -7,10 +7,19 @@ import sentimentImage from "./sentiment_analysis.png";
 import cnnImage from "./cnn.png";
 import Senior_design from "./Senior_design.JPG";
 import BuyMeCoffeeBlue from "./BuyMeCoffeeBlue.png";
+import agent_proj from "./agent-project.png";
 
 
 const Projects = () => {
   const papers = [
+    {
+      title:
+      "CFO AI-Agent Assistant",
+      role: "Developer",
+      details: "Built Frontend UX + Backend Agent and RAG to guide decision making of the company",
+      skills: "Python, Streamlit, Langchain, Agents, Prompt Engineering",
+      image: agent_proj, // put your image in public/images/
+    },
     {
         title:
         "Elderly Homes Health Tracking System ",
